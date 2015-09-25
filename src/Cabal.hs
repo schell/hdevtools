@@ -129,6 +129,8 @@ getPackageGhcOpts path mbStack opts = do
                              { configDistPref = toFlag distDir
                              -- TODO: figure out how to find out this flag
                              , configUserInstall = toFlag True
+                             -- Configure with --enable-tests to include test dependencies/modules
+                             , configTests = toFlag True
                              }
         let initCfgFlags' = stackifyFlags initCfgFlags mbStack
 
