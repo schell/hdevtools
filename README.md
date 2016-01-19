@@ -1,5 +1,7 @@
 hdevtools
 =========
+This project is active at https://github.com/hdevtools/hdevtools. Please visit
+that repo!
 
 Persistent GHC powered background server for FAST Haskell development tools
 
